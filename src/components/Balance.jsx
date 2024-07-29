@@ -7,7 +7,7 @@ function Balance({ transactions }) {
   );
   return (
     <div className="bg-gray-900 p-4 rounded-lg">
-      <h2 className="text-xl font-bold mb-2">Balance Total:</h2>
+      <h2 className="text-xl font-bold mb-2">Total Balance:</h2>
       <p
         className={`text-2xl font-bold ${
           total >= 0 ? "text-green-500" : "text-red-500"
